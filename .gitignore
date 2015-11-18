@@ -8,4 +8,5 @@ target
 /RUNNING_PID
 
 .sbtserver/*
+.sbtserver
 .cache*
