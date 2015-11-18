@@ -1,0 +1,1052 @@
+New log file opened at Wed Nov 18 10:22:58 GMT 2015 by 4092@PC-CZC53003FG
+jvm 4092@PC-CZC53003FG
+jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.65-b01
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=C:\Users\jforster\workspace\play
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory C:\Users\jforster\.sbt\0.13\plugins
+[Loading] Found non-root projects 
+[Loading] Done in C:\Users\jforster\.sbt\0.13\plugins, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in C:\Users\jforster\.sbt\0.13\plugins, returning: (global-plugins)
+Loading global plugins from C:\Users\jforster\.sbt\0.13\plugins
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@2433d08e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Other repositories:
+Default repositories:
+Using inline dependencies specified in Scala.
+[Loading] Scanning directory C:\Users\jforster\workspace\play\project
+[Loading] Found non-root projects 
+[Loading] Done in C:\Users\jforster\workspace\play\project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in C:\Users\jforster\workspace\play\project, returning: (play-build)
+Loading project definition from C:\Users\jforster\workspace\play\project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@2433d08e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory C:\Users\jforster\workspace\play
+[Loading] Found root project root w/ remaining 
+deducing auto plugins based on known facts Set(Atom(play.sbt.PlayScala), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.routes.RoutesCompiler))), Clause(Atom(play.sbt.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.sbt.PlayAkkaHttpServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayJava),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayLayoutPlugin),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayNettyServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayScala),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.routes.RoutesCompiler),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.AkkaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianDeployPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.JDebPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.docker.DockerPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin),Set(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin))), Clause(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmDeployPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalDeployPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin),Set(Atom(com.typesafe.sbt.SbtNativePackager))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsDeployPlugin),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.less.SbtLess),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.jshint.SbtJSHint),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.rjs.SbtRjs),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.digest.SbtDigest),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.mocha.SbtMocha),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(And(Set(Atom(sbt.plugins.BackgroundRunPlugin), Atom(play.sbt.Play), Atom(sbt.plugins.SerializersPlugin))),Set(Atom(play.sbt.forkrun.PlayForkRun))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayLayoutPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayNettyServer))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.less.SbtLess))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jshint.SbtJSHint))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.rjs.SbtRjs))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.digest.SbtDigest))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.mocha.SbtMocha)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,play.sbt.PlayScala,sbt.plugins.InteractionServicePlugin,sbt.plugins.SendEventServicePlugin,play.sbt.Play,sbt.plugins.SerializersPlugin,sbt.plugins.IvyPlugin,com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging,play.twirl.sbt.SbtTwirl,sbt.plugins.JvmPlugin,play.sbt.PlayNettyServer,play.sbt.PlayLayoutPlugin,play.sbt.routes.RoutesCompiler,com.typesafe.sbt.jse.SbtJsTask,com.typesafe.sbt.jshint.SbtJSHint,com.typesafe.sbt.packager.archetypes.JavaAppPackaging,sbt.plugins.JUnitXmlReportPlugin,com.typesafe.sbt.mocha.SbtMocha,com.typesafe.sbt.less.SbtLess,com.typesafe.sbt.rjs.SbtRjs,com.typesafe.sbt.jse.SbtJsEngine,com.typesafe.sbt.coffeescript.SbtCoffeeScript,sbt.plugins.BackgroundRunPlugin,com.typesafe.sbt.packager.rpm.RpmPlugin,com.typesafe.sbt.packager.windows.WindowsPlugin,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.packager.docker.DockerPlugin,play.sbt.forkrun.PlayForkRun,com.typesafe.sbt.packager.debian.DebianPlugin,com.typesafe.sbt.digest.SbtDigest,com.typesafe.sbt.packager.universal.UniversalPlugin,com.typesafe.sbt.packager.linux.LinuxPlugin,com.typesafe.sbt.SbtNativePackager)
+sorting: ns: List(sbt.plugins.CorePlugin, play.sbt.PlayScala, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, play.sbt.Play, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.twirl.sbt.SbtTwirl, sbt.plugins.JvmPlugin, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.routes.RoutesCompiler, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.docker.DockerPlugin, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.universal.UniversalPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.sbt.SbtNativePackager)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager) not found List(play.sbt.PlayScala, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, play.sbt.Play, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.twirl.sbt.SbtTwirl, sbt.plugins.JvmPlugin, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.routes.RoutesCompiler, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.docker.DockerPlugin, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.universal.UniversalPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin) not found List(play.sbt.PlayScala, play.sbt.Play, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.twirl.sbt.SbtTwirl, sbt.plugins.JvmPlugin, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.routes.RoutesCompiler, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.docker.DockerPlugin, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.linux.LinuxPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin) not found List(play.sbt.PlayScala, play.sbt.Play, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.twirl.sbt.SbtTwirl, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.routes.RoutesCompiler, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.digest.SbtDigest)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin) not found List(play.sbt.PlayScala, play.sbt.Play, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.digest.SbtDigest)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest) not found List(play.sbt.PlayScala, play.sbt.Play, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask) not found List(play.sbt.PlayScala, play.sbt.Play, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript) not found List(play.sbt.PlayScala, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.PlayScala, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.forkrun.PlayForkRun) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.PlayScala, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.forkrun.PlayForkRun)
+[Loading] Done in C:\Users\jforster\workspace\play, returning: (root)
+Set current project to play (in build file:/C:/Users/jforster/workspace/play/)
+Reapplying settings...
+Set current project to play (in build file:/C:/Users/jforster/workspace/play/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@1e956ba1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 18-Nov-2015 10:23:03
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@15220093, check cycles: false
+Total time: 0 s, completed 18-Nov-2015 10:23:03
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@251bd633, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 18-Nov-2015 10:23:03
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@7519ed43, check cycles: false
+Total time: 0 s, completed 18-Nov-2015 10:23:03
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@3ed9850e, check cycles: false
+Total time: 0 s, completed 18-Nov-2015 10:23:25
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@16e7322d, check cycles: false
+Total time: 0 s, completed 18-Nov-2015 10:23:27
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@90e0d8, check cycles: false
+Total time: 0 s, completed 18-Nov-2015 10:23:28
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@2d765580, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\jforster\workspace\play\conf\application.conf,C:\Users\jforster\workspace\play\target\scala-2.11\classes\application.conf)
+	(C:\Users\jforster\workspace\play\conf\logback.xml,C:\Users\jforster\workspace\play\target\scala-2.11\classes\logback.xml)
+	(C:\Users\jforster\workspace\play\conf\messages,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages)
+	(C:\Users\jforster\workspace\play\conf\messages.es,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.es)
+	(C:\Users\jforster\workspace\play\conf\messages.fr,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.fr)
+	(C:\Users\jforster\workspace\play\conf\messages.nl,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.nl)
+	(C:\Users\jforster\workspace\play\conf\routes,C:\Users\jforster\workspace\play\target\scala-2.11\classes\routes)
+Warning: node.js detection failed, sbt will use the Rhino based Trireme JavaScript engine instead to run JavaScript assets compilation, which in some cases may be orders of magnitude slower than using node.js.
+Total time: 2 s, completed 18-Nov-2015 10:23:30
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@4b33c309, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set(C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application$$anonfun$index$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application$$anonfun$hello$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Products$$anonfun$list$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Products.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$$anonfun$findAll$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set(C:\Users\jforster\workspace\play\app\controllers\Application.scala, C:\Users\jforster\workspace\play\app\controllers\Products.scala, C:\Users\jforster\workspace\play\app\models\Product.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\jforster\workspace\play\app\models\Product.scala, C:\Users\jforster\workspace\play\app\controllers\Application.scala, C:\Users\jforster\workspace\play\app\controllers\Products.scala)
+
+Read from stdout: Compiling 3 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Compiling 3 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 40bc89, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\jforster\workspace\play\target\scala-2.11\classes;C:\Users\jforster\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\jforster\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\jforster\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\jforster\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\jforster\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\jforster\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\jforster\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\jforster\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\jforster\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\jforster\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\jforster\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\jforster\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\jforster\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\jforster\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\jforster\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 3.872615967 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\jforster\workspace\play\conf\application.conf,C:\Users\jforster\workspace\play\target\scala-2.11\classes\application.conf)
+	(C:\Users\jforster\workspace\play\conf\logback.xml,C:\Users\jforster\workspace\play\target\scala-2.11\classes\logback.xml)
+	(C:\Users\jforster\workspace\play\conf\messages,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages)
+	(C:\Users\jforster\workspace\play\conf\messages.es,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.es)
+	(C:\Users\jforster\workspace\play\conf\messages.fr,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.fr)
+	(C:\Users\jforster\workspace\play\conf\messages.nl,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.nl)
+	(C:\Users\jforster\workspace\play\conf\routes,C:\Users\jforster\workspace\play\target\scala-2.11\classes\routes)
+Total time: 5 s, completed 18-Nov-2015 10:32:05
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@67519d7e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set(C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application$$anonfun$index$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application$$anonfun$hello$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Products$$anonfun$list$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Products.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$$anonfun$findAll$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set(C:\Users\jforster\workspace\play\app\controllers\Application.scala, C:\Users\jforster\workspace\play\app\controllers\Products.scala, C:\Users\jforster\workspace\play\app\models\Product.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\jforster\workspace\play\app\models\Product.scala, C:\Users\jforster\workspace\play\app\controllers\Application.scala, C:\Users\jforster\workspace\play\app\controllers\Products.scala)
+
+Read from stdout: Compiling 3 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Compiling 3 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 4260bb31, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\jforster\workspace\play\target\scala-2.11\classes;C:\Users\jforster\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\jforster\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\jforster\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\jforster\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\jforster\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\jforster\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\jforster\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\jforster\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\jforster\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\jforster\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\jforster\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\jforster\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\jforster\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\jforster\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\jforster\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 2.605499236 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\jforster\workspace\play\conf\application.conf,C:\Users\jforster\workspace\play\target\scala-2.11\classes\application.conf)
+	(C:\Users\jforster\workspace\play\conf\logback.xml,C:\Users\jforster\workspace\play\target\scala-2.11\classes\logback.xml)
+	(C:\Users\jforster\workspace\play\conf\messages,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages)
+	(C:\Users\jforster\workspace\play\conf\messages.es,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.es)
+	(C:\Users\jforster\workspace\play\conf\messages.fr,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.fr)
+	(C:\Users\jforster\workspace\play\conf\messages.nl,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.nl)
+	(C:\Users\jforster\workspace\play\conf\routes,C:\Users\jforster\workspace\play\target\scala-2.11\classes\routes)
+Total time: 4 s, completed 18-Nov-2015 10:32:35
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@1ae61567, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set(C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application$$anonfun$index$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application$$anonfun$hello$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Products$$anonfun$list$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Products.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$$anonfun$findAll$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set(C:\Users\jforster\workspace\play\app\controllers\Application.scala, C:\Users\jforster\workspace\play\app\controllers\Products.scala, C:\Users\jforster\workspace\play\app\models\Product.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\jforster\workspace\play\app\models\Product.scala, C:\Users\jforster\workspace\play\app\controllers\Application.scala, C:\Users\jforster\workspace\play\app\controllers\Products.scala)
+
+Read from stdout: Compiling 3 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Compiling 3 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 4e0316a2, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\jforster\workspace\play\target\scala-2.11\classes;C:\Users\jforster\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\jforster\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\jforster\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\jforster\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\jforster\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\jforster\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\jforster\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\jforster\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\jforster\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\jforster\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\jforster\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\jforster\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\jforster\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\jforster\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\jforster\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 3.098524181 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\jforster\workspace\play\conf\application.conf,C:\Users\jforster\workspace\play\target\scala-2.11\classes\application.conf)
+	(C:\Users\jforster\workspace\play\conf\logback.xml,C:\Users\jforster\workspace\play\target\scala-2.11\classes\logback.xml)
+	(C:\Users\jforster\workspace\play\conf\messages,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages)
+	(C:\Users\jforster\workspace\play\conf\messages.es,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.es)
+	(C:\Users\jforster\workspace\play\conf\messages.fr,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.fr)
+	(C:\Users\jforster\workspace\play\conf\messages.nl,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.nl)
+	(C:\Users\jforster\workspace\play\conf\routes,C:\Users\jforster\workspace\play\target\scala-2.11\classes\routes)
+Total time: 4 s, completed 18-Nov-2015 10:36:29
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@478c5c75, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set(C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application$$anonfun$index$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application$$anonfun$hello$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Products$$anonfun$list$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Products.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$$anonfun$findAll$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set(C:\Users\jforster\workspace\play\app\controllers\Application.scala, C:\Users\jforster\workspace\play\app\controllers\Products.scala, C:\Users\jforster\workspace\play\app\models\Product.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\jforster\workspace\play\app\models\Product.scala, C:\Users\jforster\workspace\play\app\controllers\Application.scala, C:\Users\jforster\workspace\play\app\controllers\Products.scala)
+
+Read from stdout: Compiling 3 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Compiling 3 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 3dd50588, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\jforster\workspace\play\target\scala-2.11\classes;C:\Users\jforster\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\jforster\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\jforster\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\jforster\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\jforster\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\jforster\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\jforster\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\jforster\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\jforster\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\jforster\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\jforster\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\jforster\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\jforster\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\jforster\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\jforster\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 2.339731124 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\jforster\workspace\play\conf\application.conf,C:\Users\jforster\workspace\play\target\scala-2.11\classes\application.conf)
+	(C:\Users\jforster\workspace\play\conf\logback.xml,C:\Users\jforster\workspace\play\target\scala-2.11\classes\logback.xml)
+	(C:\Users\jforster\workspace\play\conf\messages,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages)
+	(C:\Users\jforster\workspace\play\conf\messages.es,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.es)
+	(C:\Users\jforster\workspace\play\conf\messages.fr,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.fr)
+	(C:\Users\jforster\workspace\play\conf\messages.nl,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.nl)
+	(C:\Users\jforster\workspace\play\conf\routes,C:\Users\jforster\workspace\play\target\scala-2.11\classes\routes)
+Total time: 3 s, completed 18-Nov-2015 10:36:50
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@199912ec, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set(C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$$anonfun$findAll$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set(C:\Users\jforster\workspace\play\app\models\Product.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\jforster\workspace\play\app\models\Product.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 4dc950fd, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\jforster\workspace\play\target\scala-2.11\classes;C:\Users\jforster\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\jforster\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\jforster\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\jforster\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\jforster\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\jforster\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\jforster\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\jforster\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\jforster\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\jforster\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\jforster\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\jforster\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\jforster\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\jforster\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\jforster\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 0.588237447 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\jforster\workspace\play\conf\application.conf,C:\Users\jforster\workspace\play\target\scala-2.11\classes\application.conf)
+	(C:\Users\jforster\workspace\play\conf\logback.xml,C:\Users\jforster\workspace\play\target\scala-2.11\classes\logback.xml)
+	(C:\Users\jforster\workspace\play\conf\messages,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages)
+	(C:\Users\jforster\workspace\play\conf\messages.es,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.es)
+	(C:\Users\jforster\workspace\play\conf\messages.fr,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.fr)
+	(C:\Users\jforster\workspace\play\conf\messages.nl,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.nl)
+	(C:\Users\jforster\workspace\play\conf\routes,C:\Users\jforster\workspace\play\target\scala-2.11\classes\routes)
+Total time: 1 s, completed 18-Nov-2015 10:37:03
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@26c041a5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set(C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$$anonfun$findAll$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set(C:\Users\jforster\workspace\play\app\models\Product.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\jforster\workspace\play\app\models\Product.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 435f1c1e, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\jforster\workspace\play\target\scala-2.11\classes;C:\Users\jforster\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\jforster\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\jforster\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\jforster\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\jforster\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\jforster\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\jforster\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\jforster\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\jforster\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\jforster\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\jforster\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\jforster\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\jforster\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\jforster\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\jforster\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 0.595174869 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 18-Nov-2015 10:37:28
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 1
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@30684957, check cycles: false
+Total time: 0 s, completed 18-Nov-2015 10:37:28
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@22966cec, check cycles: false
+Total time: 0 s, completed 18-Nov-2015 10:37:29
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@fe18547, check cycles: false
+Total time: 0 s, completed 18-Nov-2015 10:37:32
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@5a1b704, check cycles: false
+Total time: 0 s, completed 18-Nov-2015 10:37:33
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@472b5a44, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set(C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$$anonfun$findAll$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set(C:\Users\jforster\workspace\play\app\models\Product.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\jforster\workspace\play\app\models\Product.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 404b0ddc, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\jforster\workspace\play\target\scala-2.11\classes;C:\Users\jforster\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\jforster\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\jforster\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\jforster\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\jforster\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\jforster\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\jforster\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\jforster\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\jforster\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\jforster\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\jforster\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\jforster\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\jforster\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\jforster\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\jforster\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 0.606029515 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\jforster\workspace\play\conf\application.conf,C:\Users\jforster\workspace\play\target\scala-2.11\classes\application.conf)
+	(C:\Users\jforster\workspace\play\conf\logback.xml,C:\Users\jforster\workspace\play\target\scala-2.11\classes\logback.xml)
+	(C:\Users\jforster\workspace\play\conf\messages,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages)
+	(C:\Users\jforster\workspace\play\conf\messages.es,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.es)
+	(C:\Users\jforster\workspace\play\conf\messages.fr,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.fr)
+	(C:\Users\jforster\workspace\play\conf\messages.nl,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.nl)
+	(C:\Users\jforster\workspace\play\conf\routes,C:\Users\jforster\workspace\play\target\scala-2.11\classes\routes)
+Total time: 1 s, completed 18-Nov-2015 10:54:26
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@2994ff2b, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\main.template.scala)
+Removed products: Set(C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$$anonfun$findAll$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set(C:\Users\jforster\workspace\play\app\models\Product.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\main.template.scala, C:\Users\jforster\workspace\play\app\models\Product.scala)
+
+Read from stdout: Compiling 2 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Compiling 2 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 48816c9c, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\jforster\workspace\play\target\scala-2.11\classes;C:\Users\jforster\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\jforster\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\jforster\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\jforster\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\jforster\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\jforster\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\jforster\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\jforster\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\jforster\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\jforster\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\jforster\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\jforster\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\jforster\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\jforster\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\jforster\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 0.964253017 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\jforster\workspace\play\conf\application.conf,C:\Users\jforster\workspace\play\target\scala-2.11\classes\application.conf)
+	(C:\Users\jforster\workspace\play\conf\logback.xml,C:\Users\jforster\workspace\play\target\scala-2.11\classes\logback.xml)
+	(C:\Users\jforster\workspace\play\conf\messages,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages)
+	(C:\Users\jforster\workspace\play\conf\messages.es,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.es)
+	(C:\Users\jforster\workspace\play\conf\messages.fr,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.fr)
+	(C:\Users\jforster\workspace\play\conf\messages.nl,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.nl)
+	(C:\Users\jforster\workspace\play\conf\routes,C:\Users\jforster\workspace\play\target\scala-2.11\classes\routes)
+Total time: 2 s, completed 18-Nov-2015 11:02:46
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@7511ca9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\main.template.scala)
+Removed products: Set(C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$$anonfun$findAll$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set(C:\Users\jforster\workspace\play\app\models\Product.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\main.template.scala, C:\Users\jforster\workspace\play\app\models\Product.scala)
+
+Read from stdout: Compiling 2 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Compiling 2 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 56126198, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\jforster\workspace\play\target\scala-2.11\classes;C:\Users\jforster\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\jforster\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\jforster\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\jforster\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\jforster\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\jforster\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\jforster\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\jforster\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\jforster\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\jforster\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\jforster\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\jforster\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\jforster\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\jforster\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\jforster\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 1.750243244 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\jforster\workspace\play\conf\application.conf,C:\Users\jforster\workspace\play\target\scala-2.11\classes\application.conf)
+	(C:\Users\jforster\workspace\play\conf\logback.xml,C:\Users\jforster\workspace\play\target\scala-2.11\classes\logback.xml)
+	(C:\Users\jforster\workspace\play\conf\messages,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages)
+	(C:\Users\jforster\workspace\play\conf\messages.es,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.es)
+	(C:\Users\jforster\workspace\play\conf\messages.fr,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.fr)
+	(C:\Users\jforster\workspace\play\conf\messages.nl,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.nl)
+	(C:\Users\jforster\workspace\play\conf\routes,C:\Users\jforster\workspace\play\target\scala-2.11\classes\routes)
+Total time: 2 s, completed 18-Nov-2015 11:03:19
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@156f9bee, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\list.template.scala, C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\main.template.scala)
+Removed products: Set(C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$$anonfun$findAll$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\list.template.scala, C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set(C:\Users\jforster\workspace\play\app\models\Product.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\list.template.scala, C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\main.template.scala, C:\Users\jforster\workspace\play\app\models\Product.scala)
+
+Read from stdout: Compiling 3 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Compiling 3 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 62e6c8b7, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\jforster\workspace\play\target\scala-2.11\classes;C:\Users\jforster\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\jforster\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\jforster\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\jforster\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\jforster\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\jforster\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\jforster\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\jforster\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\jforster\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\jforster\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\jforster\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\jforster\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\jforster\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\jforster\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\jforster\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 0.931420861 s
+Invalidating C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\list.template.scala...
+Invalidating (transitively) by inheritance from C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\list.template.scala...
+Initial set of included nodes: Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\list.template.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\list.template.scala)
+The C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\list.template.scala source file has the following regular definitions changed:
+	apply, render, f, list.
+All member reference dependencies will be considered within this context.
+The following modified names cause invalidation of C:\Users\jforster\workspace\play\app\controllers\Products.scala: Set(apply, list)
+New invalidations:
+	Set(C:\Users\jforster\workspace\play\app\controllers\Products.scala)
+Initial set of included nodes: Set(C:\Users\jforster\workspace\play\app\controllers\Products.scala)
+Including C:\Users\jforster\workspace\play\target\scala-2.11\routes\main\router\Routes.scala by C:\Users\jforster\workspace\play\app\controllers\Products.scala
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set(C:\Users\jforster\workspace\play\app\controllers\Products.scala)
+Read from stdout: Compiling 1 Scala source to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 1d83204f, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\jforster\workspace\play\target\scala-2.11\classes;C:\Users\jforster\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\jforster\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\jforster\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\jforster\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\jforster\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\jforster\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\jforster\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\jforster\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\jforster\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\jforster\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\jforster\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\jforster\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\jforster\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\jforster\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\jforster\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 0.538867077 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\jforster\workspace\play\conf\application.conf,C:\Users\jforster\workspace\play\target\scala-2.11\classes\application.conf)
+	(C:\Users\jforster\workspace\play\conf\logback.xml,C:\Users\jforster\workspace\play\target\scala-2.11\classes\logback.xml)
+	(C:\Users\jforster\workspace\play\conf\messages,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages)
+	(C:\Users\jforster\workspace\play\conf\messages.es,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.es)
+	(C:\Users\jforster\workspace\play\conf\messages.fr,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.fr)
+	(C:\Users\jforster\workspace\play\conf\messages.nl,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.nl)
+	(C:\Users\jforster\workspace\play\conf\routes,C:\Users\jforster\workspace\play\target\scala-2.11\classes\routes)
+Total time: 2 s, completed 18-Nov-2015 11:04:48
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@5bb21318, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\main.template.scala)
+Removed products: Set(C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application$$anonfun$index$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application$$anonfun$hello$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Products$$anonfun$list$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Products.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$$anonfun$findAll$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\main.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set(C:\Users\jforster\workspace\play\app\controllers\Application.scala, C:\Users\jforster\workspace\play\app\controllers\Products.scala, C:\Users\jforster\workspace\play\app\models\Product.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\main.template.scala, C:\Users\jforster\workspace\play\app\models\Product.scala, C:\Users\jforster\workspace\play\app\controllers\Application.scala, C:\Users\jforster\workspace\play\app\controllers\Products.scala)
+
+Read from stdout: Compiling 4 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Compiling 4 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 729509dc, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\jforster\workspace\play\target\scala-2.11\classes;C:\Users\jforster\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\jforster\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\jforster\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\jforster\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\jforster\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\jforster\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\jforster\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\jforster\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\jforster\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\jforster\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\jforster\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\jforster\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\jforster\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\jforster\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\jforster\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 1.084335276 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\jforster\workspace\play\conf\application.conf,C:\Users\jforster\workspace\play\target\scala-2.11\classes\application.conf)
+	(C:\Users\jforster\workspace\play\conf\logback.xml,C:\Users\jforster\workspace\play\target\scala-2.11\classes\logback.xml)
+	(C:\Users\jforster\workspace\play\conf\messages,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages)
+	(C:\Users\jforster\workspace\play\conf\messages.es,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.es)
+	(C:\Users\jforster\workspace\play\conf\messages.fr,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.fr)
+	(C:\Users\jforster\workspace\play\conf\messages.nl,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.nl)
+	(C:\Users\jforster\workspace\play\conf\routes,C:\Users\jforster\workspace\play\target\scala-2.11\classes\routes)
+Total time: 1 s, completed 18-Nov-2015 11:10:33
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@47dbc63d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\jforster\workspace\play\app\controllers\Application.scala)
+Removed products: Set(C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application$$anonfun$index$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application$$anonfun$hello$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Products$$anonfun$list$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Products.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$$anonfun$findAll$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\jforster\workspace\play\app\controllers\Application.scala)
+
+Sources indirectly invalidated by:
+	product: Set(C:\Users\jforster\workspace\play\app\controllers\Application.scala, C:\Users\jforster\workspace\play\app\controllers\Products.scala, C:\Users\jforster\workspace\play\app\models\Product.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\jforster\workspace\play\app\models\Product.scala, C:\Users\jforster\workspace\play\app\controllers\Application.scala, C:\Users\jforster\workspace\play\app\controllers\Products.scala)
+
+Read from stdout: Compiling 3 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Compiling 3 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 28758966, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\jforster\workspace\play\target\scala-2.11\classes;C:\Users\jforster\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\jforster\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\jforster\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\jforster\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\jforster\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\jforster\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\jforster\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\jforster\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\jforster\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\jforster\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\jforster\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\jforster\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\jforster\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\jforster\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\jforster\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 1.825854913 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 2 s, completed 18-Nov-2015 11:11:51
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 2
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@6151dc00, check cycles: false
+Total time: 0 s, completed 18-Nov-2015 11:11:52
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@51ded97f, check cycles: false
+Total time: 1 s, completed 18-Nov-2015 11:11:52
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@1dd5bcd7, check cycles: false
+Total time: 1 s, completed 18-Nov-2015 11:11:56
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@3430e68a, check cycles: false
+Total time: 0 s, completed 18-Nov-2015 11:11:57
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@cb86f0d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set(C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application$$anonfun$index$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application$$anonfun$hello$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Products$$anonfun$list$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Products.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$$anonfun$findAll$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set(C:\Users\jforster\workspace\play\app\controllers\Application.scala, C:\Users\jforster\workspace\play\app\controllers\Products.scala, C:\Users\jforster\workspace\play\app\models\Product.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\jforster\workspace\play\app\models\Product.scala, C:\Users\jforster\workspace\play\app\controllers\Application.scala, C:\Users\jforster\workspace\play\app\controllers\Products.scala)
+
+Read from stdout: Compiling 3 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Compiling 3 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 10fb9457, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\jforster\workspace\play\target\scala-2.11\classes;C:\Users\jforster\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\jforster\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\jforster\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\jforster\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\jforster\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\jforster\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\jforster\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\jforster\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\jforster\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\jforster\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\jforster\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\jforster\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\jforster\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\jforster\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\jforster\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 0.730266084 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\jforster\workspace\play\conf\application.conf,C:\Users\jforster\workspace\play\target\scala-2.11\classes\application.conf)
+	(C:\Users\jforster\workspace\play\conf\logback.xml,C:\Users\jforster\workspace\play\target\scala-2.11\classes\logback.xml)
+	(C:\Users\jforster\workspace\play\conf\messages,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages)
+	(C:\Users\jforster\workspace\play\conf\messages.es,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.es)
+	(C:\Users\jforster\workspace\play\conf\messages.fr,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.fr)
+	(C:\Users\jforster\workspace\play\conf\messages.nl,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.nl)
+	(C:\Users\jforster\workspace\play\conf\routes,C:\Users\jforster\workspace\play\target\scala-2.11\classes\routes)
+Total time: 1 s, completed 18-Nov-2015 11:12:01
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/jforster/workspace/play/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@51cd459f, check cycles: false
+
+Initial source changes: 
+	removed:Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\index.template.scala)
+	added: Set()
+	modified: Set()
+Removed products: Set(C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application$$anonfun$index$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Application$$anonfun$hello$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Products$$anonfun$list$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\controllers\Products.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product$$anonfun$findAll$1.class, C:\Users\jforster\workspace\play\target\scala-2.11\classes\models\Product.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\index.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set(C:\Users\jforster\workspace\play\app\controllers\Application.scala, C:\Users\jforster\workspace\play\app\controllers\Products.scala, C:\Users\jforster\workspace\play\app\models\Product.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\jforster\workspace\play\app\models\Product.scala, C:\Users\jforster\workspace\play\app\controllers\Application.scala, C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\index.template.scala, C:\Users\jforster\workspace\play\app\controllers\Products.scala)
+
+Read from stdout: Compiling 3 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Compiling 3 Scala sources to C:\Users\jforster\workspace\play\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 64cb2dc, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar
+	-classpath
+	C:\Users\jforster\workspace\play\target\scala-2.11\classes;C:\Users\jforster\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.1.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.4.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.19.0-GA.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\jforster\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.8.1.jar;C:\Users\jforster\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\bundles\jackson-datatype-jdk8-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\bundles\jackson-datatype-jsr310-2.5.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.12.jar;C:\Users\jforster\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.3.jar;C:\Users\jforster\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar;C:\Users\jforster\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar;C:\Users\jforster\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\jforster\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\jforster\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\jforster\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar;C:\Users\jforster\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar;C:\Users\jforster\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar;C:\Users\jforster\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\jars\guice-assistedinject-4.0.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.4.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.jolbox\bonecp\bundles\bonecp-0.8.0.RELEASE.jar;C:\Users\jforster\.ivy2\cache\com.zaxxer\HikariCP\bundles\HikariCP-2.3.7.jar;C:\Users\jforster\.ivy2\cache\com.h2database\h2\jars\h2-1.4.187.jar;C:\Users\jforster\.ivy2\cache\tyrex\tyrex\jars\tyrex-1.0.1.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.11.jar;C:\Users\jforster\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar;C:\Users\jforster\.ivy2\cache\com.google.guava\guava\bundles\guava-18.0.jar;C:\Users\jforster\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.9.21.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0.1.jar;C:\Users\jforster\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0.1.jar;C:\Users\jforster\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 0.789676865 s
+Invalidating C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\index.template.scala...
+Invalidating (transitively) by inheritance from C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\index.template.scala...
+Initial set of included nodes: Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\index.template.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\index.template.scala)
+The C:\Users\jforster\workspace\play\target\scala-2.11\twirl\main\views\html\index.template.scala source file has the following regular definitions changed:
+	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, index_Scope0, productPrefix, notifyAll, readResolve, isInstanceOf, <init>, apply, ==, clone, copy, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, index, productElement, hashCode.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\jforster\workspace\play\conf\application.conf,C:\Users\jforster\workspace\play\target\scala-2.11\classes\application.conf)
+	(C:\Users\jforster\workspace\play\conf\logback.xml,C:\Users\jforster\workspace\play\target\scala-2.11\classes\logback.xml)
+	(C:\Users\jforster\workspace\play\conf\messages,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages)
+	(C:\Users\jforster\workspace\play\conf\messages.es,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.es)
+	(C:\Users\jforster\workspace\play\conf\messages.fr,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.fr)
+	(C:\Users\jforster\workspace\play\conf\messages.nl,C:\Users\jforster\workspace\play\target\scala-2.11\classes\messages.nl)
+	(C:\Users\jforster\workspace\play\conf\routes,C:\Users\jforster\workspace\play\target\scala-2.11\classes\routes)
+Total time: 1 s, completed 18-Nov-2015 11:13:18
+> server-post-command-cleanup
+> server-handle-next-server-request
