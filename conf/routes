@@ -5,3 +5,5 @@
 GET / controllers.Application.index
 GET /products controllers.Products.list
 GET /assets/*file controllers.Assets.at(path="/public", file)
+GET /products/:ean controllers.Products.show(ean: Long)
+GET /barcode/:ean controllers.Barcodes.barcode(ean: Long)
